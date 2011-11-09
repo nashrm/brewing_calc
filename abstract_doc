@@ -1,0 +1,56 @@
+Ok... here is where I'mma dump the data, most of which is initially
+gleaned from John Palmer's web writings
+
+****************************************
+NOTE: These equations also work for degrees Celsius, liters and
+kilograms. The only difference is that the thermodynamic constant of
+.2 changes to .41.
+****************************************
+
+Initial Infusion Equation: Strike Water Temperature Tw = (.2/r)(T2 -
+T1) + T2
+
+Mash Infusion Equation: Wa = (T2 - T1)(.2G + Wm)/(Tw - T2)
+
+where: r = The ratio of water to grain in quarts per pound.  Wa = The
+amount of boiling water added (in quarts).  Wm = The total amount of
+water in the mash (in quarts).  T1 = The initial temperature (¡F) of
+the mash.  T2 = The target temperature (¡F) of the mash.  Tw = The
+actual temperature (¡F) of the infusion water.  G = The amount of
+grain in the mash (in pounds).
+
+The infusion water does not have to be boiling, a common choice is to
+use the sparge water at 170¡F. Then TB becomes 170 ¡F and more water
+(Wa) will be needed to make up the additional quantity of heat.
+
+Example: This example will push the envelope with three rests. We are
+going to mash 8 lbs. of grain through a 104 ¡F, 140 ¡F, and 158 ¡F
+(40, 60, and 70 ¡C) multi-rest mash schedule. For the purposes of this
+example, we will assume that the temperature of the dry grain is 70 ¡F
+(21 ¡C). The first infusion will need to take the temperature of the
+mash from 70 ¡F to 104 ¡F. We will start with an initial water ratio
+of 1 qt/lb. Using the initial infusion equation, the strike water
+temperature is:
+
+Tw = (.2/r)(T2-T1) + T2= (.2/1)(104 - 70) +104 = 110.8 or 111¡F
+
+For the second infusion, to bring the temperature to 140 ¡F, we need
+to use the mash infusion equation. At 1 qt/lb, Wm is 8 qt. We will
+assume that our boiling water for the infusions has cooled somewhat to
+210 ¡F.
+
+Wa = (T2 - T1) X (0.2G + Wm) / (Tw - T2)
+
+Wa = (140 - 104) X (1.6 + 8) / (210 - 140)
+
+Wa = 36 X 9.6 / 70 = 4.9 qt
+
+For the third infusion, the total water volume is now 8 + 4.9 = 12.9
+qt.
+
+Wa = (158 - 140) X (1.6 + 12.9) / (210 - 158) Wa = 18 X 15.1 / 52 =
+5.2 qt
+
+The total volume of water required to perform this schedule is 8 + 4.9
++ 5.2 = 18.1 qt, or 4.5 gallons). The final water-to-grain ratio has
+increased to 2.26 qt/lb (18.1 / 8).
